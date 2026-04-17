@@ -8,13 +8,7 @@ document.getElementById("form").addEventListener("submit", function(e) {
 
     if(nome === "" || email === "" || senha === "" || telefone === "") {
         alert("Preencha todos os campos!");
-        return;
+    } else {
+        alert("Cadastro realizado com sucesso!");
     }
-
-    if(senha.length < 6) {
-        alert("A senha deve ter pelo menos 6 caracteres!");
-        return;
-    }
-
-    alert("Cadastro realizado com sucesso!");
 });
