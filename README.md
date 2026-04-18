@@ -1,40 +1,43 @@
-<h1 align="center"> Comandos Git e Git Flow</h1>
+<h1>Comandos Principais de Git</h1>
 
-<h2> Clonar Repositório</h2>
+<hr>
+
+<h2>Clonar repositório</h2>
 <pre><code>git clone URL</code></pre>
 
-<h2> Ver Status</h2>
+<h2>Ver status</h2>
 <pre><code>git status</code></pre>
 
-<h2> Adicionar Arquivos</h2>
+<h2>Adicionar arquivos</h2>
 <pre><code>git add .</code></pre>
 
-<h2> Criar Commit</h2>
+<h2>Criar commit</h2>
 <pre><code>git commit -m "mensagem"</code></pre>
 
-<h2> Push</h2>
+<h2>Enviar alterações (push)</h2>
 <pre><code>git push</code></pre>
 
-<h2> Pull</h2>
+<h2>Atualizar repositório (pull)</h2>
 <pre><code>git pull</code></pre>
 
-<h1 align="center"> Git Guide</h1>
+<h2>Branches</h2>
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+<h3>Criar branch</h3>
+<pre><code>git branch nome-da-branch</code></pre>
 
-<div style="background:#0d1117; padding:15px; border-radius:10px; width:300px;">
-<h3> Clonar</h3>
-<code>git clone URL</code>
-</div>
+<h3>Trocar de branch</h3>
+<pre><code>git checkout nome-da-branch</code></pre>
 
-<div style="background:#0d1117; padding:15px; border-radius:10px; width:300px;">
-<h3> Status</h3>
-<code>git status</code>
-</div>
+<h3>Criar e trocar de branch</h3>
+<pre><code>git checkout -b nome-da-branch</code></pre>
 
-<div style="background:#0d1117; padding:15px; border-radius:10px; width:300px;">
-<h3> Commit</h3>
-<code>git commit -m "msg"</code>
-</div>
+<h2>Git Flow</h2>
 
-</div>
+<h3>Iniciar</h3>
+<pre><code>git flow init</code></pre>
+
+<h3>Criar feature</h3>
+<pre><code>git flow feature start nome-da-feature</code></pre>
+
+<h3>Finalizar feature</h3>
+<pre><code>git flow feature finish nome-da-feature</code></pre>
