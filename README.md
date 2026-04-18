@@ -1,78 +1,40 @@
-\# Comandos Git e GitFlow
+<h1 align="center">🚀 Comandos Git e Git Flow</h1>
 
+<h2>📥 Clonar Repositório</h2>
+<pre><code>git clone URL</code></pre>
 
+<h2>📊 Ver Status</h2>
+<pre><code>git status</code></pre>
 
-\## Clonar repositório
+<h2>➕ Adicionar Arquivos</h2>
+<pre><code>git add .</code></pre>
 
-git clone URL
+<h2>💾 Criar Commit</h2>
+<pre><code>git commit -m "mensagem"</code></pre>
 
+<h2>🔄 Push</h2>
+<pre><code>git push</code></pre>
 
+<h2>⬇️ Pull</h2>
+<pre><code>git pull</code></pre>
 
-\## Ver status
+<h1 align="center">🚀 Git Guide</h1>
 
-git status
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
+<div style="background:#0d1117; padding:15px; border-radius:10px; width:300px;">
+<h3>📥 Clonar</h3>
+<code>git clone URL</code>
+</div>
 
+<div style="background:#0d1117; padding:15px; border-radius:10px; width:300px;">
+<h3>📊 Status</h3>
+<code>git status</code>
+</div>
 
-\## Adicionar arquivos
+<div style="background:#0d1117; padding:15px; border-radius:10px; width:300px;">
+<h3>💾 Commit</h3>
+<code>git commit -m "msg"</code>
+</div>
 
-git add .
-
-
-
-\## Criar commit
-
-git commit -m "mensagem"
-
-
-
-\## Enviar para o GitHub
-
-git push
-
-
-
-\## Criar branch
-
-git branch nome-da-branch
-
-
-
-\## Trocar de branch
-
-git checkout nome-da-branch
-
-
-
-\## Criar e trocar de branch
-
-git checkout -b nome-da-branch
-
-
-
-\## Atualizar repositório
-
-git pull
-
-
-
-\## Corrigir último commit
-
-git commit --amend
-
-
-
-\## Ver histórico
-
-git log
-
-
-
-\## GitFlow
-
-git flow init
-
-git flow feature start nome
-
-git flow feature finish nome
-
+</div>
